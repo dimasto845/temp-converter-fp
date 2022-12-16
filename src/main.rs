@@ -1,5 +1,7 @@
 use std::io;
 
+
+
 fn main() {
     let mut choice;
     
@@ -30,11 +32,9 @@ fn main() {
 fn user_choice() -> String {
     let mut input = String::new();
     
-    // Get user input (String) and assign it to input variable.
     io::stdin().read_line(&mut input)
        .expect("Failed read line.");
     
-    // trim() result is &str, convert it back to_string().
     input.trim().to_string()
 }
 
@@ -44,7 +44,6 @@ fn float_input() -> f32 {
     io::stdin().read_line(&mut user_input)
         .expect("Failed read line.");
     
-    // parse String input to float.
     let num: f32 = user_input.trim().parse()
         .expect("Please enter a number");
 
