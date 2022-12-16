@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["celcius_to_fahrenheit",""],["fahrenheit_to_celcius",""],["float_input",""],["main",""],["user_choice",""]]};
